@@ -1,0 +1,72 @@
+/* Configurações */
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(89, 0, 255, 0.8); 
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child1 {
+    width: 30%;
+}
+
+/* Header */
+
+header {
+    background-color: rgb(154, 210, 255);
+    height: 50px;
+    position: relative;
+    width: 100%
+}
+
+.two {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    width: 40px;
+}
+
+/* Dark Mode */
+
+.Dm1 {
+    background-color: rgb(128, 255, 128);
+}
+
+.Dm2,.Dm3,.Dm4,.Dm5 {
+    background-color: rgb(61, 61, 61) !important;
+}
+  
+.dark-mode {
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+
